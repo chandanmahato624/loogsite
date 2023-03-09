@@ -1,5 +1,5 @@
 # 🏡 Responsive LoogByte Chatting Website
-## [Watch it on youtube](https://youtu.be/--> Comming soon)
+## Hosted Website--> Comming soon
 ### 🏡 Find your soulmate and chat through our Website.
 #### Disclemer --> Devloper have lots of English problem so manage it 
 
@@ -10,6 +10,4 @@
 - Developed first with the Mobile First methodology, then for desktop.
 - Compatible with all mobile devices and with a beautiful and pleasant user interface.
 
-💙 Join the channel 
-
-![preview img]
+![preview img Comming soon]
