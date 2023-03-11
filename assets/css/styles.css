@@ -98,9 +98,32 @@ button {
 }
 
 /*=============== THEME ===============*/
+.change-theme{
+  font-size: 1.25rem;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.change-theme:hover{
+  color: var(--first-color);
+}
 
 
 /*========== Variables Dark theme ==========*/
+body.dark-theme{
+  --first-color: hsl(228, 66%, 62%);
+  /* --first-color-alt: hsl(228, 66%, 47%);
+  --first-color-light: hsl(228, 62%, 59%);
+  --first-color-lighten: hsl(228, 100%, 97%); */
+  --second-color: hsl(25, 57%, 54%);
+  --title-color: hsl(228, 8%, 95%);
+  --text-color: hsl(228, 8%, 70%);
+
+  --border-color: hsl(228, 16%, 14%);
+  --body-color:  hsl(228, 12%, 8%);
+  --container-color: hsl(228, 16%, 12%);
+}
 
 
 /*========== 
@@ -225,8 +248,19 @@ button {
   color: var(--first-color);
 }
 
+.scroll-header .change-theme{
+  color: var(--title-color);
+}
+
 
 /* Active link */
+.active-link{
+  background: linear-gradient(101deg,
+  hsl(228, 66%, 53%),
+  hsl(228, 66%, 47%));
+  color: #fff;
+  box-shadow: 0 4px 8px hsla(228, 66%, 45%, .25);
+}
 
 
 /*=============== HOME ===============*/
@@ -774,12 +808,49 @@ footer__title{
 }
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar{
+  width: .6rem;
+  border-radius: .5rem;
+  background-color: hsl(228, 8%, 76%);
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: hsl(228, 8%, 64%);
+  border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(228, 8%, 54%);
+  border-radius: .5rem;
+}
 
 
 /*=============== SCROLL UP ===============*/
+.scrollup{
+  position: fixed;
+  right: 1rem;
+  bottom: -30%;
+  background-color: var(--container-color);
+  box-shadow: 0 8px 12px hsla(228, 66%, 45%, .1);
+  display: inline-flex;
+  padding: .35rem;
+  border-radius: .25rem;
+  color: var(--title-color);
+  font-size: 1.25rem;
+  z-index: var(--z-tooltip);
+  transition: .3s;
+}
+
+.scrollup:hover{
+  transform: translateY(-.25rem);
+  color: var(--first-color);
+}
 
 
 /* Show Scroll Up*/
+.show-scroll{
+  bottom: 8rem;
+}
 
 
 /*=============== BREAKPOINTS ===============*/
