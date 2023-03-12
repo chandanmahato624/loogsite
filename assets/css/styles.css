@@ -172,6 +172,7 @@ body.dark-theme{
 }
 
 
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1024px;
@@ -730,7 +731,7 @@ body.dark-theme{
   background-color: var(--first-color);
   padding: 3rem 2rem;
   border-radius: 1.25rem;
-  border: 6px solid var(--first-color-light);
+  /* border: 6px solid var(--first-color-light); */
   text-align: center;
 }
 
