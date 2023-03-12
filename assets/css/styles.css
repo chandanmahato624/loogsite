@@ -184,7 +184,10 @@ body.dark-theme{
 }
 
 .section {
-  padding: 4.5rem 0 2rem;
+  padding: 3rem 0 2rem;
+}
+.extragap{
+  padding: 5rem 0 2rem;
 }
 
 .section__title {
@@ -437,7 +440,7 @@ body.dark-theme{
 
 /*=============== POPULAR ===============*/
 .popular__container{
-  padding: 1rem 0 5rem;
+  padding: 1rem 0 2rem;
 }
 
 .popular__card{
