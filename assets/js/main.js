@@ -10,14 +10,27 @@ window.addEventListener('scroll', scrollHeader)
 
 /*=============== SWIPER POPULAR ===============*/
 var swiperPopular = new Swiper(".popular__container", {
+    slidesPerView: 3,
     spaceBetween: 32,
     grabCursor: true,
-    centeredSlides: true,
-    sidesPerView: 'auto',
+    // centeredSlides: true,
+    // sidesPerView: 'auto',
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev"
     },
+
+    breakpoints:{
+        0:{
+            slidesPerView: 1,
+        },
+        520:{
+            slidesPerView: 2,
+        },
+        950:{
+            slidesPerView: 3,
+        },
+    }
 });
 
 

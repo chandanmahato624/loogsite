@@ -1,7 +1,7 @@
 # 🏡 Responsive LoogByte Chatting Website
 ## Hosted Website
 ### 🏡 Find your soulmate and chat through our Website.
-#### Disclemer : Devloper have lots of English problem so manage it 
+#### Disclaimer : Devloper have lots of English problem so manage it 
 
 - Responsive Landing page Website Using Advence SASS HTML CSS & JavaScript
 - Contains animations when scrolling.
