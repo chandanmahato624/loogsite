@@ -1244,6 +1244,7 @@ footer__title{
   body{
     zoom: 1.5;
   }
+}
 
 
   /* for popup */
@@ -1377,6 +1378,4 @@ footer__title{
   background-size: 10px;
   background-position: center;
 }
-}
-  
 }
