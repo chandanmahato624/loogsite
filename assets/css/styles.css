@@ -1305,6 +1305,7 @@ footer__title{
   line-height: 1em;
   font-weight: 500;
   font-size: 1.8em;
+  padding-bottom: 1rem;
 }
 
 .contentBox .content h2{
@@ -1352,12 +1353,13 @@ footer__title{
 @media(max-width: 767px){
 .contentBox{
     width: 300px;
-    height: auto;
+    height: 300px;
     flex-direction:column;
   }
 
 .contentBox  .imgBx{
-  height: 200px;
+  visibility: hidden;
+  height: 40px;
   transform: translateY(-50px);
 } 
 .contentBox .imgBx::before{
