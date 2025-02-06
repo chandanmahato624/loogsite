@@ -144,10 +144,10 @@ body.dark-theme{
 }
 
 
-.dark-theme .value__orbe,
+/* .dark-theme .value__orbe, */
 .dark-theme .value__accordion-icon,
 .dark-theme .value__accordion-arrow,
-.dark-theme .contact__orbe,
+/* .dark-theme .contact__orbe, */
 .dark-theme .contact__card i,
 .dark-theme .contact__card-button,
 .dark-theme .subscribe__container{
@@ -391,10 +391,10 @@ body.dark-theme{
 .home__orbe{
   width: 265px;
   height: 284px;
-  background: linear-gradient(180deg,
+  /* background: linear-gradient(180deg,
     hsl(0, 0%, 16%) 93%,
-    hsl(0, 0%, 67%) 100%);
-  border-radius: 135px 135px 0 0;
+    hsl(0, 0%, 67%) 100%); */
+  border-radius: 12px 12px 0 0;
 }
 
 .home__img{
@@ -402,7 +402,7 @@ body.dark-theme{
   width: 250px;
   height: 300px;
   overflow: hidden;
-  border-radius: 125px 125px 12px 12px;
+  border-radius: 12px 12px 12px 12px;
   display: inline-flex;
   align-items: flex-end;
   bottom: -1.5rem;
@@ -532,19 +532,19 @@ body.dark-theme{
 .value__orbe{
   width: 266px;
   height: 316px;
-  background-color: hsl(228, 24%, 97%);
-  border-radius: 135px 135px 16px 16px;
+  /* background-color: hsl(228, 24%, 97%); */
+  border-radius: 13px 13px 16px 16px;
 }
 
 .value__img{
   position: absolute;
   width: 250px;
-  height: 300px;
+  height: 310px;
   overflow: hidden;
-  border-radius: 125px 125px 12px 12px;
+  border-radius: 12px 12px 12px 12px;
   inset: 0;
   margin: auto;
-  box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
+  /* box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25); */
 }
 
 .value__description{
@@ -645,19 +645,19 @@ body.dark-theme{
 .contact__orbe{
   width: 266px;
   height: 316px;
-  background-color: hsl(228, 24%, 97%);
+  /* background-color: hsl(228, 24%, 97%); */
   border-radius: 135px 135px 16px 16px;
 }
 
 .contact__img{
   position: absolute;
   width: 250px;
-  height: 300px;
+  height: 310px;
   overflow: hidden;
-  border-radius: 125px 125px 12px 12px;
+  border-radius: 12px 12px 12px 12px;
   inset: 0;
   margin: auto;
-  box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
+  /* box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25); */
 }
 
 .contact__description{
@@ -1119,7 +1119,7 @@ footer__title{
   .home__img{
     width: 451px;
     height: 534px;
-    border-radius: 236px 236px 12px 12px;
+    border-radius: 12px 12px 12px 12px;
     /* bottom: -2.5rem; */
   }
   .popular__container{
@@ -1143,13 +1143,13 @@ footer__title{
   .contact__orbe{
     width: 501px;
     height: 641px;
-    border-radius: 258px 258px 16px 16px;
+    border-radius: 12px 2px 16px 16px;
   }
   .value__img,
   .contact__img{
     width: 461px;
     height: 601px;
-    border-radius: 238px 238px 12px 12px;
+    border-radius: 12px 12px 12px 12px;
   }
   .contact__img{
     height: 577px;
